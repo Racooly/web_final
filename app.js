@@ -33,11 +33,6 @@ function checkCookieConsent() {
     }
 
     
-    function resetCookieConsent() {
-        localStorage.removeItem('cookieConsent');
-        alert('Cookie consent has been reset! Refresh the page to see the notification again.');
-        location.reload();
-    }
 
     
     document.addEventListener('DOMContentLoaded', checkCookieConsent);
