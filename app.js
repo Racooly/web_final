@@ -12,7 +12,6 @@ function checkCookieConsent() {
     function acceptCookies() {
         localStorage.setItem('cookieConsent', 'accepted');
         hideCookieNotification();
-        console.log('✅ Cookies accepted!');
         alert('Thank you! Cookies have been accepted.');
     }
 
@@ -20,7 +19,6 @@ function checkCookieConsent() {
     function declineCookies() {
         localStorage.setItem('cookieConsent', 'declined');
         hideCookieNotification();
-        console.log('❌ Cookies declined!');
         alert('Cookies have been declined.');
     }
 
